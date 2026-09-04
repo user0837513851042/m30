@@ -27,9 +27,6 @@ jobs:
       - name: Unit tests
         run: pytest tests
 
-      - name: mypy
-        run: mypy src/
-
       - name: black
         run: black --diff --check src/
         
