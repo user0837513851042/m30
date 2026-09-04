@@ -5,3 +5,4 @@ black==21.12b0
 isort==5.9.3
 pytest==7.0.1
 httpx2==2.12.0
+aiosqlite==0.22.1
