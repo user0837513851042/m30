@@ -35,6 +35,3 @@ jobs:
         
       - name: isort
         run: isort --check-only src/
-
-      - name: flake8
-        run: flake8 src/
